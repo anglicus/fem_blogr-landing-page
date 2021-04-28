@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | [Blogr]</title>
+
+</head>
+<body>
+  <header>
+    <img class="logo" src="/images/logo.svg" alt="Blogr Logo">
+    <a href="#" id="btn-hamburger" class="desktop-hidden">
+      <img id="mobile-hamburger" class="mobile-toggle-show" src="/images/icon-hamburger.svg" alt="mobile menu icon">
+      <img id="mobile-close-menu" class="mobile-toggle-hidden" src="/images/icon-close.svg" alt="mobile menu close">
+    </a>
+
+    <div id="header-nav-wrapper" class="mobile-toggle-hidden desktop-show">
+        <nav id="header-nav">
+          <div id="header-product" class="header-nav-section">
+            <a class="header-menu-title" href="#">Product
+                <img class="mobile-arrow desktop-hidden" src="/images/icon-arrow-dark.svg">
+                <img class="desktop-arrow" src="/images/icon-arrow-light.svg">
+            </a>
+            <div class="expand-wrapper contract">
+              <div id="header-product-links" class="header-menu-section">
+                <a class="header-link" href="#">Overview</a>
+                <a class="header-link" href="#">Pricing</a>
+                <a class="header-link" href="#">Marketplace</a>
+                <a class="header-link" href="#">Features</a>
+                <a class="header-link" href="#">Integrations</a>
+              </div>
+            </div>
+          </div>
+          <div id="header-company" class="header-nav-section">
+            <a class="header-menu-title" href="#">Company
+                <img class="mobile-arrow desktop-hidden" src="/images/icon-arrow-dark.svg">
+                <img class="desktop-arrow" src="/images/icon-arrow-light.svg">
+            </a>
+            <div class="expand-wrapper contract">
+              <div id="header-company-links" class="header-menu-section">
+                <a class="header-link" href="#">About</a>
+                <a class="header-link" href="#">Team</a>
+                <a class="header-link" href="#">Blog</a>
+                <a class="header-link" href="#">Careers</a>
+              </div>
+            </div>
+          </div>
+          <div id="header-connect" class="header-nav-section">
+            <a class="header-menu-title" href="#">Connect
+                <img class="mobile-arrow desktop-hidden" src="/images/icon-arrow-dark.svg">
+                <img class="desktop-arrow" src="/images/icon-arrow-light.svg">
+            </a>
+            <div class="expand-wrapper contract">
+              <div id="header-connect-links" class="header-menu-section">
+                <a class="header-link" href="#">Contact</a>
+                <a class="header-link" href="#">Newsletter</a>
+                <a class="header-link" href="#">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+          <hr id="mobile-nav-divider" class="desktop-hidden">
+          <a class="cta" id="cta-login" href="#">Login</a>
+          <a class="cta" id="cta-signup" href="#">Sign Up</a>
+        </nav>
+    </div>
+
+    <h1>A modern publishing platform</h1>
+    <p>Grow your audience and build your online brand</p>
+    <div id="cta-div">
+      <a class="cta" id="cta-start-for-free" href="#">Start for Free</a>
+      <a class="cta" id="cta-learn-more" href="#">Learn More</a>
+    </div>
+  </header>
+  <main>
+    <section id="section1">
+      <h2>Designed for the future</h2>
+      <div id="section1-sub">
+        <div id="section1-img">
+          <img id="img-mobile-editor" class="mobile-img" src="/images/illustration-editor-mobile.svg" alt="editor illustration">
+          <img id="img-desktop-editor" class="desktop-img" src="/images/illustration-editor-desktop.svg" alt="editor illustration">
+        </div>
+        <div id="section1-sub-text">
+          <h3 id="head1">Introducing an extensible editor</h3>
+          <p id="par1">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+          change the looks of a blog.</p>
+
+          <h3 id="head2">Robust content management</h3>
+          <p id="par2">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+          by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+        </div>
+      </div>
+    </section>
+    <section id="section2">
+      <div id="section2-img">
+        <img id="img-phones" src="/images/illustration-phones.svg" alt="phones illustration">
+      </div>
+      <div id="section2-text">
+        <h2>State of the Art Infrastructure</h2>
+        <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+        This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.<p>
+      </div>  
+    </section>
+    <section id="section3">
+    
+      <div id="section3-img">
+        <img id="img-mobile-laptop" class="mobile-img" src="/images/illustration-laptop-mobile.svg" alt="laptop illustration">
+        <img id="img-desktop-laptop" class="desktop-img" src="/images/illustration-laptop-desktop.svg" alt="laptop illustration">
+      </div>
+      <div id="section3-text">
+        <h3>Free, open, simple</h3>
+        <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+        features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+        and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+
+        <h3>Powerful tooling</h3>
+        <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+        capable of producing even the most complicated sites.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer> 
+    <nav id="footer-nav">
+      <img class="logo" src="/images/logo.svg" alt="Blogr Logo">
+      <div id="footer-product" class="footer-nav-group">
+        <h4 class="footer-title">Product</h4>
+        <a class="footer-link" href="#">Overview</a>
+        <a class="footer-link" href="#">Pricing</a>
+        <a class="footer-link" href="#">Marketplace</a>
+        <a class="footer-link" href="#">Features</a>
+        <a class="footer-link" href="#">Integrations</a>
+      </div>
+
+      <div id="footer-company" class="footer-nav-group">
+        <h4 class="footer-title">Company</h4>
+        <a class="footer-link" href="#">About</a>
+        <a class="footer-link" href="#">Team</a>
+        <a class="footer-link" href="#">Blog</a>
+        <a class="footer-link" href="#">Careers</a>
+      </div>
+
+      <div id="footer-connect" class="footer-nav-group">
+        <h4 class="footer-title">Connect</h4>
+        <a class="footer-link" href="#">Contact</a>
+        <a class="footer-link" href="#">Newsletter</a>
+        <a class="footer-link" href="#">LinkedIn</a>
+      </div>
+    </nav>
+
+      <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/anglicus">James English</a>.
+  </div>
+  </footer>
+
+</body>
+
+<script src="script.js"></script>
+</html>
